@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import heroImg from "../../assests/images/hero-Img1.png";
+import heroImg from "../../assests/images/heroImg.png";
 import "./HeroSection.css";
 
 const HeroSection = () => {
