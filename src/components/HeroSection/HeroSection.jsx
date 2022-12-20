@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import heroImg from "../../assests/images/hero-img1.png";
+import heroImg from "../../assests/images/hero-Img1.png";
 import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <section id="#home">
+    <section id="home">
         <Container>
             <Row>
                 <Col lg="6" md="6">
