@@ -1,0 +1,24 @@
+.testimonial__content h2 {
+    font-weight: 600;
+}
+
+.testimonial__img{
+    margin-right: 5rem;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 991px){
+    .testimonial__wrapper{
+        flex-direction: column;
+        height: 42.5rem;
+    }
+
+    .testimonial__img{
+        margin-right: 0;
+        height: 250px;
+    }
+
+    .testimonial__content{
+        margin-bottom: 2.5rem;
+    }
+}
