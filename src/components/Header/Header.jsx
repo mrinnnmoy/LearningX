@@ -3,6 +3,7 @@ import { Container } from 'reactstrap';
 import "./Header.css";
 
 const Header = () => {
+
     const navLinks = [
         {
             index: 1,
@@ -36,7 +37,7 @@ const Header = () => {
     const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
   return (
-    <header className="header">
+    <header className="sticky-top w-100 pt-4">
         <Container>
             <div className="navigation d-flex align-items-center justify-content-between">
                 <div className="logo">
