@@ -5,22 +5,27 @@ import "./Header.css";
 const Header = () => {
     const navLinks = [
         {
+            index: 1,
             display: "Home",
             url: "#home",
         },
         {
+            index: 2,
             display: "About",
             url: "#about",
         },
         {
+            index: 3,
             display: "Courses",
             url: "#courses",
         },
         {
+            index: 4,
             display: "Pages",
             url: "#pages",
         },
         {
+            index: 5,
             display: "Blog",
             url: "#blog",
         },

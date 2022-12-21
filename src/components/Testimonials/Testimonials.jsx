@@ -17,7 +17,7 @@ const Testimonials = () => {
     };
 
     return (
-        <section>
+        <section id="blog">
             <Container>
                 <Row>
                     <Col lg="10" md="12" className="m-auto">

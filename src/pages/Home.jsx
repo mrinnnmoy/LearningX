@@ -4,6 +4,7 @@ import ChooseUs from '../components/ChooseUs/ChooseUs';
 import CompanySection from '../components/CompanySection/CompanySection';
 import Course from '../components/Courses/Course';
 import Feature from '../components/Feature/Feature';
+import Footer from '../components/Footer/Footer';
 import FreeCourse from '../components/FreeCourse/FreeCourse';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/HeroSection/HeroSection';
@@ -18,11 +19,12 @@ const Home = () => {
         <CompanySection />
         <AboutUs />
         <Course />
+        <FreeCourse />
         <ChooseUs />
         <Feature />
-        <FreeCourse />
         <Testimonials />
         <Newsletter />
+        <Footer />
     </Fragment>
   )
 };
