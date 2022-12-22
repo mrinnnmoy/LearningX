@@ -10,15 +10,15 @@
 @media only screen and (max-width: 991px){
     .testimonial__wrapper{
         flex-direction: column;
-        height: 42.5rem;
+        height: 45rem;
     }
 
     .testimonial__img{
         margin-right: 0;
-        height: 250px;
+        transform: scale(1.3);
     }
 
     .testimonial__content{
-        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
     }
 }

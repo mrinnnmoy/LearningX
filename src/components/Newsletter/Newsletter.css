@@ -32,4 +32,13 @@
     .subscribe {
         width: 65%;
     }
+
+    .subscribe input {
+        width: 55%;
+    }
+
+    .subscribe .btn {
+        width: 40%;
+        font-size: 10px;
+    }
 }
